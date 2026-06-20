@@ -127,46 +127,42 @@ erDiagram
 
     schools {
         int id PK
-        text name "学校全称"
-        text short_name "简称"
+        text name
+        text short_name
     }
-
     colleges {
         int id PK
         int school_id FK
-        text name "学院名称"
-        text code "学院编号"
+        text name
+        text code
     }
-
     majors {
         int id PK
         int college_id FK
-        text name "专业名称"
-        text major_type "普通/实验班/大类招生"
-        real total_credits "最低毕业学分"
-        text education_level "本科"
-        text duration "4年"
+        text name
+        text major_type
+        real total_credits
+        text education_level
+        text duration
     }
-
     courses {
         int id PK
-        text code UK "课程号"
-        text name "课程名称"
-        real credits "学分"
-        real total_hours "总学时"
-        real lecture_hours "讲授学时"
-        real practice_hours "实践学时"
-        text assessment_method "考试/考查"
+        text code UK
+        text name
+        real credits
+        real total_hours
+        real lecture_hours
+        real practice_hours
+        text assessment_method
     }
-
     major_courses {
         int id PK
         int major_id FK
         int course_id FK
-        text course_type "通识必修/专业必修/选修等"
-        int semester "开课学期 1-8"
-        real weekly_hours "周学时"
-        text notes "备注"
+        text course_type
+        int semester
+        real weekly_hours
+        text notes
     }
 ```
 
