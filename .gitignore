@@ -1,0 +1,14 @@
+# Large data files (regeneratable or downloadable)
+data/sufe_plan.pdf
+data/培养方案2.zip
+data/training.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
