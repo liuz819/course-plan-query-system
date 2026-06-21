@@ -71,7 +71,7 @@ pip install pdfplumber
 pip install openai
 ```
 
-如果不需要从原始 PDF 重新导入数据（`training.db` 已随项目提供），则无需安装任何第三方依赖即可运行查询。
+如果不需要从原始 PDF 重新导入数据（`training.db` 随学习通附件提供，未上传至 GitHub），则无需安装任何第三方依赖即可运行查询。
 
 ### 2. 初始化数据库
 
